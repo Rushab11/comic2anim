@@ -2,11 +2,11 @@ import os
 import shutil
 from dataset_prep import create_csv
 
-source_folder = './images/'
+source_folder = '../images/'
 
 dest_name = input("Enter the name of the destination folder: ")
 
-destination_folder = f'./images/{dest_name.lower()}'
+destination_folder = f'../images/{dest_name.lower()}'
 
 num_files_to_move = int(input("Enter the number of files to move: "))
 

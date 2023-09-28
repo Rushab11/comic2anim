@@ -3,7 +3,7 @@ import csv
 
 
 def create_csv(folder_name):
-    image_folder = f'./images/{folder_name.lower()}/'
+    image_folder = f'../images/{folder_name.lower()}/'
 
     if not os.path.exists(image_folder):
         print(f'Image folder does not exist: {image_folder}')
